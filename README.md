@@ -1,3 +1,4 @@
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/WPTK/cool-adsbx-links)
 
 During a chat in the ADSB Exchange (ADSBx) [Discord](https://discord.com/invite/ad8SSMpWvH), the topic of being able to filter and save lists of certain aircraft came up. Additionally, a separate topic about how to use the filtering options to see exactly what you want. It spurred the idea of creating a Github to reuse some of those links, and a space to store them all as the list grows!
@@ -72,7 +73,7 @@ Using `CONCATENATE`/ `CONCAT` (more time-intensive):
  **Note:** `CELL1,CELL2,etc..`    are going to be the individual cells of the `TRIM` function column on the    `Master` tab. You can select them by clicking and holding  `CTRL` on your keyboard. If you use the `SHIFT` key the formula won't work.
 
 Formula Example - note the need to add `A1` after every variable. 
-KARV
+
 `=CONCAT(MASTER!AI$51669,A4,MASTER!AI$113794,A4,MASTER!AI$131955,A4,MASTER!AI$266486,A4,MASTER!AI$266751,A4,MASTER!AI$267358,A4,MASTER!AI$273801,A4,MASTER!AI$273151,A4,MASTER!AI$274129,A4,MASTER!AI$274802,A4,MASTER!AI$276002,A4,MASTER!AI$293305)`
 
 ## Creating the URL string
