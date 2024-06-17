@@ -1,6 +1,23 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/WPTK/cool-adsbx-links)
+
 During a chat in the ADSB Exchange (ADSBx) [Discord](https://discord.com/invite/ad8SSMpWvH), the topic of being able to filter and save lists of certain aircraft came up. Additionally, a separate topic about how to use the filtering options to see exactly what you want. It spurred the idea of creating a Github to reuse some of those links, and a space to store them all as the list grows!
 
 If you want to add your own links, click this link to get to our ["How To" section](#how-to-add-links)
+### Future Plans
+
+ - Type code filters (modifications of what's found on the [Map Help](https://adsbexchange.com/map-help/) page.
+ - More cool links (with your help!) 
+ - FAQ
+ - Continual maintenance to make sure lists are accurate and updated. 
+
+# ADBSx Links
+| Country | State | Description         | Link |
+|---------|-------|---------------------|------|
+| USA     | CA    | California Forestry (CalFire) | [Link](https://globe.adsbexchange.com/?icao=a1a588,a23851,a4acf2,a4b0a9,a4b460,a4b817,a4c6f3,a4c786,a4caaa,a4cb3d,a4ce61,a4d471,a4df96,a4e34d,a4e704,a4f229,a4ffa7,a5035e,a50acc,a50e83,a5123a,a515f1,a519a8,a51d5f,a5236f,a52726,a52add,a52e94,a5324b,a53602,a539b9,a53d70,a54127,a544de,a54aee,a54ea5,a54ed2,a5525c,a559ca,a55d81,a568a6,a56c5d,a5726d,a58500,a588b7,a58c6e,a59025,a5bb5b,a5c16b,a5cc90,a5d7b5,a5db6c,a5df23,a5e2da,a5e8ea,a5eca1,a5f058,a5f40f,a5f7c6,a5fb7d,a5ff34,a602eb,a606a2,a60a59,a61069,a61420,a617d7,a61b8e,a61f45,a622fc,a626b3,a62a6a,a62e21,a631d8,a6dc21)     |
+| USA        | GA      | Georgia Department of Public Safety<br>Georgia State Patrol<br> Georgia Capitol Police | [Link](https://globe.adsbexchange.com/?icao=A208D5,A4DB92,A5B045,AC835D,AC8714,AC8E82,ACCEA4,ACC736,ACD25B,ACD9C9,ACE747,ADD775) | 
+| USA | Various | Air Ambulances / Life Flights | [Link](https://globe.adsbexchange.com/?icao=a052d9,a09c4d,a1774a,a2a2d6,a3e2df,a4c76a,a5137a,a51e9f,a521de,a5985b,a5bfda,a63199,a6c4f7,a78666,a7cc29,a7f287,a7ee19,a857cf,a87429,a88ccc,a89f5f,a8d73b,a94d44,a97b6b,aa56d0,a010fe,a08fb3,a33e3b,a4c876,a6515f,a6804c,a716da,a99e87,a9cc30,abbeb7,aa4a1b,abdec8,ac81f7)
+
+
 
 # Adding Links
 Easy! You can add them yourself, or, join the Discord and someone will *probably* make it for you if you ask nicely. Maybe.  
@@ -14,6 +31,8 @@ This will require some Excel knowledge, some may call it witchcraft. I will incl
 If you're using a newer version of Excel, you may have access to `CONCAT`, which you should use if you don't care about backwards compatibility.  You can also use `TEXTJOIN` because that will allow you to add the delimiters as needed. I'm using `TEXTJOIN` for this example. 
 
 ## Getting the Data
+This will include all available data the FAA can provide for US-registered aircraft. It will not include military aircraft or LADD-tagged registrations. Feel free to contribute your own aircraft links -- LADD-tagged, outside of the US, military aircraft, etc. are all welcome. 
+
 **Step 1:** Download the FAA's Aircraft Registration information from their [website](https://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry/releasable_aircraft_download). This information is updated nightly so it may be helpful to always download a fresh copy. 
 
 | SCREENSHOT HERE | 
@@ -63,3 +82,6 @@ Using the output of this formulas, simply append them to the ADSBx base URL: `ht
 
 Example: 
 `https://globe.adsbexchange.com/?icao=A208D5,A4DB92,A5B045,AC835D,AC8714,AC8E82,ACCEA4,ACC736,ACD25B,ACD9C9,ACE747,ADD775`
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FWPTK%2Fcool-adsbx-links&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hit+counter+%28today%2Ftotal%29&edge_flat=false)](https://hits.seeyoufarm.com)
