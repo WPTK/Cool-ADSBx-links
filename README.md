@@ -6,7 +6,7 @@ During a chat in the ADSB Exchange (ADSBx) [Discord](https://discord.com/invite/
 If you want to add your own links, click this link to get to our ["How To" section](#how-to-add-links)
 ### Future Plans
 
- - Type code filters (modifications of what's found on the [Map Help](https://adsbexchange.com/map-help/) page.
+ - Type code filters (modifications of what's found on the [Map Help](https://adsbexchange.com/map-help/) page.)
  - More cool links (with your help!) 
  - FAQ
  - Continual maintenance to make sure lists are accurate and updated. 
