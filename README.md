@@ -1,6 +1,6 @@
 
 
-![GitHub last commit](https://img.shields.io/github/last-commit/WPTK/cool-adsbx-links)  [![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)
+![GitHub last commit](https://img.shields.io/github/last-commit/WPTK/cool-adsbx-links)  [![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/) ![Static Badge](https://img.shields.io/badge/Contributions-Welcome-green)
 
 During a chat in the ADSB Exchange (ADSBx) [Discord](https://discord.com/invite/ad8SSMpWvH), the topic of being able to filter and save lists of certain aircraft came up. Additionally, a separate topic about how to use the filtering options to see exactly what you want. It spurred the idea of creating a Github to reuse some of those links, and a space to store them all as the list grows!
 
