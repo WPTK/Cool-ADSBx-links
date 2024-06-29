@@ -52,8 +52,6 @@ This will include all available data the FAA can provide for US-registered aircr
 
 **Step 1:** Download the FAA's Aircraft Registration information from their [website](https://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry/releasable_aircraft_download). This information is updated nightly so it may be helpful to always download a fresh copy. 
 
-| SCREENSHOT HERE | 
-
 **Step 2:** Extract all of the files, and then edit the `MASTER.txt` file extension to `MASTER.csv`. Here's a link on how to do that for [Windows 10/11 and macOS](https://www.wikihow.com/Change-a-File-Extension). You may not need to rename it, you may be able to open it directly in Excel. Mine was being a little wonky, so I put both in here. 
 
 ## Manipulating the Data
@@ -102,3 +100,6 @@ Example:
 
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FWPTK%2Fcool-adsbx-links&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hit+counter+%28today%2Ftotal%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
+#Credits
+Shoutout to the Folks at [@sdr-enthusiasts] (https://www.github.com/username) for letting me play with their Planefence DB to get cool data out. 
