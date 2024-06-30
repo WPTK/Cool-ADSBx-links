@@ -49,7 +49,7 @@ This will require some Excel knowledge, some may call it witchcraft. I will incl
 If you're using a newer version of Excel, you may have access to `CONCAT`, which you should use if you don't care about backwards compatibility.  You can also use `TEXTJOIN` because that will allow you to add the delimiters as needed. I'm using `TEXTJOIN` for this example. 
 
 ## Getting the Data
-This will include all available data the FAA can provide for US-registered aircraft. It will not include military aircraft or LADD-tagged registrations. Feel free to contribute your own aircraft links -- LADD-tagged, outside of the US, military aircraft, etc. are all welcome. 
+This will include all available data the FAA can provide for US-registered aircraft. It will not include military aircraft or LADD-tagged registrations. Feel free to contribute your own aircraft links -- LADD-tagged, outside of the US, military aircraft, etc. are all welcome. Note: You can also use [@sdr-enthusiasts](https://www.github.com/sdr-enthusiasts)'s lists if you follow the Open Data Commons Open Database License (the same license as this repo)
 
 **Step 1:** Download the FAA's Aircraft Registration information from their [website](https://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry/releasable_aircraft_download). This information is updated nightly so it may be helpful to always download a fresh copy. 
 
@@ -63,8 +63,6 @@ This will include all available data the FAA can provide for US-registered aircr
 
  - Filter by state `Column K` aka `STATE`
  - Filter by the text string "Public Safety" in `Column G` aka `NAME`
-
-|SCREENSHOT HERE|
 
 **Step 5:** The data you're looking for is in `Column AH` or the column title `MODE S CODE HEX`
 
